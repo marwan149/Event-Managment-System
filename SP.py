@@ -3,11 +3,7 @@ from Base_User import BaseUser
 from Customer import Customer
 from PM import Project_Manager
 
-class Service_Provider(BaseUser):
-    import json
-from Base_User import BaseUser  # Assuming BaseUser class is defined in Base_User module
-from Customer import Customer  # Assuming Customer class is defined in Customer module
-from PM import Project_Manager  # Assuming Project_Manager class is defined in PM module
+
 
 class Service_Provider(BaseUser):
     Service_Providers_Lists = []
